@@ -8,11 +8,13 @@
     <title>Score Keeper</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
     <div class="card" style="width: 18rem;">
         <div class="card-body">
             <h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
-            <select name="playTo" id="playTo">
+            <select class="form-select" name="playTo" id="playTo" aria-label="Default select example">
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
@@ -27,12 +29,15 @@
                 <option value="13">13</option>
                 <option value="14">14</option>
             </select>
+            <br>
             <button type="button" id="p1Button" class="btn btn-primary">Player 1 Scores</button>
             <button type="button" id="p2Button" class="btn btn-success">Player 2 Scores</button>            
             <button type="button" id="reset" class="btn btn-danger">Reset Scores</button>            
+                </div>
+            </div>
         </div>
-      </div>
-
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
