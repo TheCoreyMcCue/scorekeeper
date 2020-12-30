@@ -1,22 +1,22 @@
 .winner {
-    color: green;
+    color: #61b15a;
 }
 
 .loser {
-    color: red;
+    color:#c70039;
 }
 
-#card {
-    justify-content: flex-end;
-}
+
 .container {
     display: flex ;
     justify-content: center;
-    flex-grow: 6;
+    align-items: center;
 
 }
-.col-12{
-    align-items: center;
+
+#buttons{
+display: flex;
+justify-content: space-evenly;
 }
 
 body {
@@ -27,7 +27,13 @@ body {
 
 #mainH1 {
     text-align: center;
-    color: #fcf8e8;
+    color: whitesmoke;
     margin-top: 30px;
+    font-weight: bolder;
+}
+h1 {
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 2.5px;
 }
 
