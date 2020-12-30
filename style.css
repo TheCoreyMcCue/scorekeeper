@@ -6,15 +6,23 @@
     color: red;
 }
 
-
+#card {
+    justify-content: flex-end;
+}
 .container {
-    margin-left: 350px;
-    margin-top: 100px;
+    display: flex ;
+    justify-content: center;
+    flex-grow: 6;
+
+}
+.col-12{
+    align-items: center;
 }
 
 body {
     background-image: url(https://images.unsplash.com/photo-1607376162689-10d6eb9d6c83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80);
     background-size: cover;
+    opacity: 0.9;
 }
 
 #mainH1 {
@@ -22,3 +30,4 @@ body {
     color: #fcf8e8;
     margin-top: 30px;
 }
+
