@@ -18,6 +18,7 @@ p1Button.addEventListener('click', function() {
             isGameOver = true;
             p1Display.classList.add('winner');
             p2Display.classList.add('loser');
+            alert("Player 1 Wins!!")
         }
         p1Display.textContent = p1Score;
     }
@@ -30,6 +31,7 @@ p2Button.addEventListener('click', function() {
             isGameOver = true;
             p2Display.classList.add('winner');
             p1Display.classList.add('loser');
+            alert("Player 2 Wins!!")
         }
         p2Display.textContent = p2Score;
     }

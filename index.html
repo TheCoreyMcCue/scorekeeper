@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Score Keeper</title>
 </head>
@@ -24,11 +25,16 @@
         <option value="13">13</option>
         <option value="14">14</option>
     </select>
-    <button id="p1Button">+1 Player One</button>
-    <button id="p2Button">+1 Player Two</button>
-    <button id="reset">Reset</button>
-
+    <button type="button" id="p1Button" class="btn btn-primary">Player 1 Scores</button>
+    <button type="button" id="p2Button" class="btn btn-success">Player 2 Scores</button>            
+    <button type="button" id="reset" class="btn btn-danger">Reset Scores</button>            
 
     <script src="app.js"></script>
 </body>
 </html>
+
+
+
+
+
+
